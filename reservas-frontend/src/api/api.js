@@ -15,7 +15,6 @@ export async function getAppointments() {
 }
 
 export async function getAvailableTimeslots(date) {
-  console.log(date);
   const response = await axios.get(`${API_URL}appointments/timeslots?date=${date}`);
 
   return response.data;
