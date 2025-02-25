@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservasAPI", "ReservasAPI\ReservasAPI.csproj", "{EAF539AD-7195-4619-A7A9-EC918539CD7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{17E2895D-C631-4401-A836-3DE781B43B08}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EAF539AD-7195-4619-A7A9-EC918539CD7E} = {EAF539AD-7195-4619-A7A9-EC918539CD7E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAF539AD-7195-4619-A7A9-EC918539CD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF539AD-7195-4619-A7A9-EC918539CD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF539AD-7195-4619-A7A9-EC918539CD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF539AD-7195-4619-A7A9-EC918539CD7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E2895D-C631-4401-A836-3DE781B43B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E2895D-C631-4401-A836-3DE781B43B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E2895D-C631-4401-A836-3DE781B43B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E2895D-C631-4401-A836-3DE781B43B08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48661D41-21C6-4D5D-8AD7-59D0EDE99461}
+	EndGlobalSection
+EndGlobal
