@@ -17,7 +17,7 @@ Se realiza un backend .NET 8 en proyecto ASP.NET Core, con base de datos Sqlit3 
 - `cd reservas-frontend`
 - `code .` para abrir el proyecto.
 - Instalamos las dependencias con `npm i`
-- Corremos el proyecto con `npm run vite`
+- Corremos el proyecto con `npm run dev`
 
 El proyecto está listo para ser utilizado.
 
